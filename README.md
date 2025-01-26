@@ -3,7 +3,6 @@
 This project is a creation of an ASCII art generator using Python and the Pillow library. The script takes an input image and processes it to create an ASCII art representation of the image by converting its pixels into corresponding ASCII characters based on their luminance.
 
 ### 1. How It Works
-
 1. Transforming Images into Grayscale:  
         The input image is converted to grayscale, so it only has brightness values.
 
@@ -41,5 +40,4 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 6. View the output: The script will generate ASCII art from your image and display it automatically.
 
 ### 4. Improvement
-
 Create an outline using ASCII art and enhance it with more vibrant colors to make it more visually appealing.
