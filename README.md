@@ -40,6 +40,6 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 5. Enter the name of your image: When prompted, enter the filename of your image (or the full path if it’s not in the same folder).
 6. View the output: The script will generate ASCII art from your image and display it automatically.
 
-### 1. Improvement
+### 4. Improvement
 
 Create an outline using ASCII art and enhance it with more vibrant colors to make it more visually appealing.
