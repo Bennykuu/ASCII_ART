@@ -23,7 +23,7 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 ##### input image (cat1.jpg):
 <p align="left">
   <img src="example_Images/cat1.jpg" width="200" />
-  <img src="example_Images/cat2.jpg" width="200" />
+  <img src="example_Images/cat1.jpg" width="200" />
 </p>
 
 ##### Output: The generated ASCII art (ASCII Faktor 4):
