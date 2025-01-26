@@ -11,8 +11,7 @@ This project is a creation of an ASCII art generator using Python and the Pillow
         The image is scaled down to a smaller size using a factor
 
 3. ASCII Representation of Image:
-        The input image is represented in ASCII using a predefined
-        list of characters: [' ', '.', ':', '=', 'c', 'o', '?', '#', '%', '@']. Each character corresponds to a specific range of brightness, with ' ' representing the darkest and '@' representing the brightest regions. The luminance of each pixel is normalized to a range of [0, 1] and mapped to the corresponding character based on its brightness.
+        The input image is represented in ASCII using a predefined list of characters: [' ', '.', ':', '=', 'c', 'o', '?', '#', '%', '@']. Each character corresponds to a specific range of brightness, with ' ' representing the darkest and '@' representing the brightest regions. The luminance of each pixel is normalized to a range of [0, 1] and mapped to the corresponding character based on its brightness.
 
 5. Creating the ASCII Art Image:
         A new blank image of the same size as the original is created to hold the ASCII art. ASCII characters are drawn onto the new image at positions corresponding to their scaled locations in the original image.
@@ -22,9 +21,8 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 
 As for some example
 
-### Originales Bild:
+### input image (cat1.jpg):
 ![Original](example_Images/cat1.jpg)
 
-### Transformation (ASCII Faktor 4):
-→
+### Output: The generated ASCII art (ASCII Faktor 4):
 ![Transformation](example_Images/cat1_ascii_factor4.PNG)
