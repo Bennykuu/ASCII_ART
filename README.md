@@ -33,7 +33,7 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 </p>
 
 ### 3. How to Use
-1. Clone the repository:
+1. Clone the repository
 2. Install dependencies: Ensure that Pillow is installed with:    pip install Pillow
 3. Place your input image: Put the image you want to convert into ASCII art into the same directory as your script, or note its full path if it is elsewhere.
 4. Run the script: Navigate to the directory where ascii_art.py is located and run the script:   python ascii_art.py
