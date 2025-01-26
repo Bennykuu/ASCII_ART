@@ -4,6 +4,7 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 
 ### 1. How It Works
 
+⋅⋅* Unordered sub-list. 
 ⋅⋅1 Transforming Images into Grayscale: 
 ...The input image is converted to grayscale, so it only has brightness values. 
 
