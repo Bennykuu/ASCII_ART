@@ -5,7 +5,7 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 As for some example
 
 ### Originales Bild:
-![Original](example_Images/caz1.jpg)
+![Original](example_Images/cat1.jpg)
 
 ### Transformation (ASCII Faktor 4):
 →
