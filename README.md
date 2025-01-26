@@ -25,3 +25,12 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 
 ##### Output: The generated ASCII art (ASCII Faktor 4):
 ![Transformation](example_Images/cat1_ascii_factor4.PNG)
+
+### How to Use
+
+1. Clone the repository:
+2. Install dependencies: Ensure that Pillow is installed with:    pip install Pillow
+3. Place your input image: Put the image you want to convert into ASCII art into the same directory as your script, or note its full path if it is elsewhere.
+4. Run the script: Navigate to the directory where ascii_art.py is located and run the script:   python ascii_art.py
+5. Enter the name of your image: When prompted, enter the filename of your image (or the full path if it’s not in the same folder).
+6. View the output: The script will generate ASCII art from your image and display it automatically.
