@@ -22,12 +22,15 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 ### 2. example
 ##### input image (cat1.jpg):
 <p align="left">
-  <img src="example_Images/cat1.jpg" width="200" />
-  <img src="example_Images/cat1.jpg" width="200" />
+  <img src="example_Images/cat1.jpg" width="500" />
+  <img src="example_Images/cat1.jpg" width="500" />
 </p>
 
 ##### Output: The generated ASCII art (ASCII Faktor 4):
-![Transformation](example_Images/cat1_ascii_factor4.PNG), ![Transformation](example_Images/cat1_ascii_factor4.PNG)
+<p align="left">
+  <img src="example_Images/cat1_ascii_factor4.PNG" width="500" />
+  <img src="example_Images/cat1_ascii_factor4.PN" width="500" />
+</p>
 
 ### 3. How to Use
 1. Clone the repository:
