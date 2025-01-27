@@ -28,5 +28,3 @@ for y in range(downsized.height):
         draw.text((x * factor, y * factor), symbol, fill="white")
 
 output_image.show()
-
-
