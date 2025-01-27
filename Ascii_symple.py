@@ -1,7 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 
-picture = input("which image do you wanna us:").strip()
-
+picture = input("which image do you wanna us:")
 image = Image.open(picture).convert("L")
 
 factor = 8
