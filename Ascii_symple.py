@@ -1,4 +1,4 @@
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw
 
 picture = input("which image do you wanna us:").strip().strip('"').strip("'")
 image = Image.open(picture).convert("L")
@@ -18,6 +18,7 @@ for y in range(downsized.height):
     for x in range(downsized.width):
         luminance = pixels[x, y] / 255  # Normalisiere auf Bereich [0, 1]
 
+        #for replacing the pixels
         uv_x = (x % factor) / factor + luminance 
         uv_y = (y % factor) / factor 
 
