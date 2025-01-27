@@ -19,8 +19,8 @@ for y in range(downsized.height):
     for x in range(downsized.width):
         luminance = pixels[x, y] / 255  # Normalisiere auf Bereich [0, 1]
 
-        uv_x = (x % factor) / factor + luminance # video hilfe
-        uv_y = (y % factor) / factor # video hilfe
+        uv_x = (x % factor) / factor + luminance 
+        uv_y = (y % factor) / factor 
 
         index = min(int(luminance * (len(ASCII)-1)), len(ASCII) - 1) # [0,9]
         symbol = ASCII[index]
