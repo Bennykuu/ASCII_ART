@@ -19,7 +19,7 @@ for y in range(downsized.height):
         luminance = pixels[x, y] / 255  # Normalisiere auf Bereich [0, 1]
 
         #for replacing the pixels
-        uv_x = (x % factor) / factor + luminance # x is pixel position
+        uv_x = (x % factor) / factor + luminance # x is pixel position and mod by 8 to put it in the 8x8 range of the ascii charater size
         uv_y = (y % factor) / factor 
 
         index = min(int(luminance * (len(ASCII)-1)), len(ASCII) - 1) # [0,9]
