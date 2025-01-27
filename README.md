@@ -25,7 +25,7 @@ This project is a creation of an ASCII art generator using Python and the Pillow
   <img src="example_Images/Test2.png" width="450" />
 </p>
 
-##### Output: The generated ASCII art (Cat ASCII Faktor 4, Test ASCII Faktor 8):
+##### Output: The generated ASCII art (Cat ASCII Faktor 4, Test2 ASCII Faktor 8):
 <p align="left">
   <img src="example_Images/cat1_ascii_factor4.PNG" width="500" />
   <img src="example_Images/Test2_ascii_factor8.PNG" width="450" />
