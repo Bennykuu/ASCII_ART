@@ -43,7 +43,7 @@ This project is a creation of an ASCII art generator using Python and the Pillow
 Create an outline using ASCII art and enhance it with more vibrant colors to make it more visually appealing.
 
 ### 5. Problem
-It has problems with big pictures — they're too detailed and use too many complex symbols
+It has problems with big pictures, they're too detailed and use too many complex symbols
 
 ### 6. Reference
 cat1.jpg Image from https://media.istockphoto.com/id/468583653/de/foto/katze-portr%C3%A4t.jpg?s=612x612&w=0&k=20&c=ZeYyvRJXqEvlcbQ1PtAyH5I-Lam2kV-ElTueV3_q0Pk=   
