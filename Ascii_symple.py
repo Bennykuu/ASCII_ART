@@ -22,13 +22,13 @@ class ASCIIArt:
                 luminance = pixels[x, y] / 255  # Normalisiere auf Bereich [0, 1]
 
                 # for replacing the pixels
-                uv_x = (x % self.factor) / self.factor + luminance    # x is pixel position and mod by 8 to put it in the 8x8 range of the ascii charater size
-                uv_y = (y % self.factor) / self.factor
+                uv_x = x * self.factor + (self.factor * luminance / 2) # x is pixel position and mod by 8 to put it in the 8x8 range of the ascii charater size
+                uv_y = y * self.factor
 
                 index = min(int(luminance * (len(self.ASCII) - 1)), len(self.ASCII) - 1) # [0,9]
                 symbol = self.ASCII[index]
-
-                draw.text((x * self.factor, y * self.factor), symbol, fill="white")
+                
+                draw.text((int(uv_x), int(uv_y)), symbol, fill="white")
 
         return output_image
 
